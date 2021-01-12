@@ -17,6 +17,12 @@ namespace _42git
                 double b;
                 double equally;
                 char oper;
+
+                if (oper == '+')
+                {
+                    equally = a + b;
+                    Console.WriteLine("Ответ: " + equally);
+                }
             }
         }
     }
