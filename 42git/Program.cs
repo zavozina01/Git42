@@ -10,7 +10,14 @@ namespace _42git
     {
         static void Main(string[] args)
         {
-
+            char again = 'д';
+            while (again == 'д')
+            {
+                double a;
+                double b;
+                double equally;
+                char oper;
+            }
         }
     }
 }
