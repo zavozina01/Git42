@@ -17,6 +17,18 @@ namespace _42git
                 double b;
                 double equally;
                 char oper;
+
+                else if (oper == '/')
+                {
+                    equally = a / b;
+                    Console.WriteLine("Ответ: " + equally);
+                }
+                else
+                {
+                    Console.WriteLine("Неизвестный оператор.");
+                }
+                Console.WriteLine("Вы хотите продолжить работу с калькулятором? (д/н)");
+                again = Convert.ToChar(Console.ReadLine());
             }
         }
     }
