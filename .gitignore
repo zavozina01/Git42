@@ -2,3 +2,7 @@
 .vs/42git/v16/Server/sqlite3/db.lock
 .vs/42git/v16/Server/sqlite3/storage.ide-wal
 .vs/42git/v16/Server/sqlite3/storage.ide-shm
+.vs/42git/v16/Server/sqlite3/storage.ide-shm
+.vs/42git/v16/Server/sqlite3/storage.ide-wal
+*.ide-wal
+*.ide-shm
