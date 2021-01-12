@@ -17,6 +17,13 @@ namespace _42git
                 double b;
                 double equally;
                 char oper;
+
+                Console.WriteLine("Введите симво(+,-,/,*):");
+                oper = Convert.ToChar(Console.ReadLine());
+
+                Console.WriteLine("Введите второе число:");
+                b = Convert.ToDouble(Console.ReadLine());
+
             }
         }
     }
