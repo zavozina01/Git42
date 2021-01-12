@@ -17,6 +17,10 @@ namespace _42git
                 double b;
                 double equally;
                 char oper;
+
+                Console.WriteLine("Введите первое число:");
+                a = Convert.ToDouble(Console.ReadLine());
+
             }
         }
     }
