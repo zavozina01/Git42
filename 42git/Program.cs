@@ -18,11 +18,19 @@ namespace _42git
                 double equally;
                 char oper;
 
+
                 Console.WriteLine("Введите симво(+,-,/,*):");
                 oper = Convert.ToChar(Console.ReadLine());
 
                 Console.WriteLine("Введите второе число:");
                 b = Convert.ToDouble(Console.ReadLine());
+
+
+                else if (oper == '-')
+                {
+                    equally = a - b;
+                    Console.WriteLine("Ответ: " + equally);
+                }
 
             }
         }
