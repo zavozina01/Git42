@@ -19,6 +19,7 @@ namespace _42git
                 char oper;
 
 
+
                 Console.WriteLine("Введите симво(+,-,/,*):");
                 oper = Convert.ToChar(Console.ReadLine());
 
@@ -29,6 +30,13 @@ namespace _42git
                 else if (oper == '-')
                 {
                     equally = a - b;
+                    Console.WriteLine("Ответ: " + equally);
+                }
+
+
+                else if (oper == '*')
+                {
+                    equally = a * b;
                     Console.WriteLine("Ответ: " + equally);
                 }
 
